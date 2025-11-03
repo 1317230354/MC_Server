@@ -1,55 +1,140 @@
-[20:38:14] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.9+7-LTS-338; Oracle Corporation null) on Windows 10 10.0 (amd64)
-[20:38:14] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) for Minecraft 1.21.8
-[20:38:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:38:16] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[20:38:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:38:23] [ServerMain/INFO]: Loaded 1407 recipes
-[20:38:24] [ServerMain/INFO]: Loaded 1520 advancements
-[20:38:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:38:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 392.1ms
-[20:38:25] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[20:38:25] [Server thread/INFO]: Loading properties
-[20:38:25] [Server thread/INFO]: This server is running Purpur version 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[20:38:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:38:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:38:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:38:26] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[20:38:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:38:27] [Server thread/INFO]: Default game type: SURVIVAL
-[20:38:27] [Server thread/INFO]: Generating keypair
-[20:38:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:38:27] [Server thread/INFO]: Using default channel type
-[20:38:27] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:38:27] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:38:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:38:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:38:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:38:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:38:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:38:27] [Server thread/INFO]: Preparing level "world"
-[20:38:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:38:28] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:29] [Server thread/INFO]: Preparing spawn area: 2%
-[20:38:29] [Server thread/INFO]: Time elapsed: 1001 ms
-[20:38:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:38:29] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:29] [Server thread/INFO]: Time elapsed: 155 ms
-[20:38:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:38:29] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:29] [Server thread/INFO]: Time elapsed: 154 ms
-[20:38:30] [Server thread/INFO]: [spark] Starting background profiler...
-[20:38:30] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[20:38:30] [Server thread/INFO]: Done preparing level "world" (2.526s)
-[20:38:30] [Server thread/INFO]: Running delayed init tasks
-[20:38:30] [Server thread/INFO]: Done (16.160s)! For help, type "help"
-[20:45:03] [User Authenticator #0/INFO]: UUID of player hulai is 4f98c68e-de55-399d-b2de-f3ff94cb2b37
-[20:45:04] [Server thread/INFO]: hulai joined the game
-[20:45:04] [Server thread/INFO]: hulai[/127.0.0.1:8576] logged in with entity id 79 at ([world]-96.48625189799584, 67.0, 97.17572571573875)
-[20:46:27] [Server thread/INFO]: hulai drowned
-[20:48:25] [Server thread/INFO]: hulai lost connection: Disconnected
-[20:48:25] [Server thread/INFO]: hulai left the game
-[20:59:55] [User Authenticator #1/INFO]: UUID of player hulai is 4f98c68e-de55-399d-b2de-f3ff94cb2b37
-[20:59:56] [Server thread/INFO]: hulai joined the game
-[20:59:56] [Server thread/INFO]: hulai[/127.0.0.1:11464] logged in with entity id 1190 at ([world]-180.73924933475305, 64.0, 248.00228138056653)
-[21:00:06] [Server thread/INFO]: hulai issued server command: /gamemode 1
-[21:01:03] [Server thread/INFO]: hulai has made the advancement [Monster Hunter]
+[21:08:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.9+7-LTS-338; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[21:08:52] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) for Minecraft 1.21.8
+[21:08:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:08:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[21:08:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:09:01] [ServerMain/INFO]: Loaded 1407 recipes
+[21:09:01] [ServerMain/INFO]: Loaded 1520 advancements
+[21:09:01] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:09:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 418.7ms
+[21:09:03] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[21:09:03] [Server thread/INFO]: Loading properties
+[21:09:03] [Server thread/INFO]: This server is running Purpur version 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[21:09:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:09:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:09:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:09:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[21:09:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:09:04] [Server thread/INFO]: Default game type: SURVIVAL
+[21:09:04] [Server thread/INFO]: Generating keypair
+[21:09:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:09:05] [Server thread/INFO]: Using default channel type
+[21:09:05] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:09:05] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:09:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:09:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:09:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:09:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:09:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:09:05] [Server thread/INFO]: Preparing level "world"
+[21:09:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:09:06] [Server thread/INFO]: Preparing spawn area: 0%
+[21:09:07] [Server thread/INFO]: Preparing spawn area: 0%
+[21:09:07] [Server thread/INFO]: Time elapsed: 964 ms
+[21:09:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:09:07] [Server thread/INFO]: Preparing spawn area: 0%
+[21:09:07] [Server thread/INFO]: Time elapsed: 87 ms
+[21:09:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:09:07] [Server thread/INFO]: Preparing spawn area: 0%
+[21:09:07] [Server thread/INFO]: Time elapsed: 101 ms
+[21:09:07] [Server thread/INFO]: [spark] Starting background profiler...
+[21:09:07] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[21:09:07] [Server thread/INFO]: Done preparing level "world" (2.330s)
+[21:09:07] [Server thread/INFO]: Running delayed init tasks
+[21:09:07] [Server thread/INFO]: Done (16.131s)! For help, type "help"
+[21:09:37] [User Authenticator #0/INFO]: UUID of player hulai is 4f98c68e-de55-399d-b2de-f3ff94cb2b37
+[21:09:38] [Server thread/INFO]: hulai joined the game
+[21:09:38] [Server thread/INFO]: hulai[/127.0.0.1:13377] logged in with entity id 25 at ([world]-159.1477568876485, 63.0, 132.81852207124723)
+[21:10:11] [User Authenticator #0/INFO]: UUID of player your_father is 4e96f450-e61f-3a02-851a-598241837abc
+[21:10:12] [Server thread/INFO]: your_father joined the game
+[21:10:12] [Server thread/INFO]: your_father[/127.0.0.1:13605] logged in with entity id 296 at ([world]-82.33782884598548, 63.0, 26.17252534361606)
+[21:11:25] [Server thread/INFO]: hulai has made the advancement [Stone Age]
+[21:11:54] [User Authenticator #1/INFO]: UUID of player soso is 6274f68e-a1a7-304c-a6b1-4111b721f266
+[21:11:54] [Server thread/INFO]: soso joined the game
+[21:11:54] [Server thread/INFO]: soso[/127.0.0.1:13976] logged in with entity id 689 at ([world]-94.5, 70.0, 24.5)
+[21:12:02] [Server thread/INFO]: hulai has made the advancement [Getting an Upgrade]
+[21:12:04] [Server thread/INFO]: your_father was slain by Zombie
+[21:13:01] [Server thread/INFO]: soso has made the advancement [Monster Hunter]
+[21:13:18] [Server thread/INFO]: soso was slain by hulai
+[21:13:30] [Server thread/INFO]: your_father was slain by hulai
+[21:15:12] [Server thread/INFO]: soso was slain by hulai
+[21:17:34] [Server thread/INFO]: soso has made the advancement [Stone Age]
+[21:18:34] [Server thread/INFO]: soso was blown up by Creeper
+[21:18:37] [Server thread/INFO]: your_father has made the advancement [Stone Age]
+[21:20:05] [Server thread/INFO]: your_father has made the advancement [Getting an Upgrade]
+[21:23:24] [Server thread/INFO]: hulai lost connection: Disconnected
+[21:23:24] [Server thread/INFO]: hulai left the game
+[21:23:27] [Server thread/INFO]: your_father lost connection: Disconnected
+[21:23:27] [Server thread/INFO]: your_father left the game
+[21:23:30] [Server thread/INFO]: soso lost connection: Disconnected
+[21:23:30] [Server thread/INFO]: soso left the game
+[21:39:06] [User Authenticator #2/INFO]: UUID of player your_father is 4e96f450-e61f-3a02-851a-598241837abc
+[21:39:06] [Server thread/INFO]: your_father joined the game
+[21:39:06] [Server thread/INFO]: your_father[/127.0.0.1:4643] logged in with entity id 3838 at ([world]-240.69668175148854, 65.0, 51.36842471072638)
+[21:40:40] [Server thread/INFO]: your_father was slain by Spider
+[21:41:05] [User Authenticator #3/INFO]: UUID of player hulai is 4f98c68e-de55-399d-b2de-f3ff94cb2b37
+[21:41:06] [Server thread/INFO]: hulai joined the game
+[21:41:06] [Server thread/INFO]: hulai[/127.0.0.1:4680] logged in with entity id 4088 at ([world]-240.84659622697822, 65.0, 49.48724581206512)
+[21:41:59] [User Authenticator #3/INFO]: UUID of player soso is 6274f68e-a1a7-304c-a6b1-4111b721f266
+[21:42:00] [Server thread/INFO]: soso joined the game
+[21:42:00] [Server thread/INFO]: soso[/127.0.0.1:4748] logged in with entity id 4304 at ([world]-558.6063607253575, 62.234845858368956, -158.4708713560326)
+[21:47:43] [Server thread/INFO]: hulai has made the advancement [Acquire Hardware]
+[21:47:51] [Server thread/INFO]: hulai has made the advancement [Isn't It Iron Pick]
+[21:50:16] [Server thread/INFO]: hulai lost connection: Disconnected
+[21:50:16] [Server thread/INFO]: hulai left the game
+[21:52:03] [User Authenticator #4/INFO]: UUID of player hulai is 4f98c68e-de55-399d-b2de-f3ff94cb2b37
+[21:52:03] [Server thread/INFO]: hulai joined the game
+[21:52:03] [Server thread/INFO]: hulai[/127.0.0.1:4994] logged in with entity id 7605 at ([world]-298.45532748722627, -52.0, 44.88784397705337)
+[21:53:19] [Server thread/INFO]: hulai has made the advancement [Diamonds!]
+[21:53:58] [Server thread/INFO]: hulai burned to death
+[21:54:33] [Server thread/INFO]: soso was slain by Zombie
+[21:55:45] [Server thread/INFO]: hulai lost connection: Disconnected
+[21:55:45] [Server thread/INFO]: hulai left the game
+[21:56:47] [User Authenticator #5/INFO]: UUID of player hutaome is 45736e29-b689-30a8-8966-cbec3d1fca69
+[21:56:48] [Server thread/INFO]: hutaome joined the game
+[21:56:48] [Server thread/INFO]: hutaome[/127.0.0.1:5076] logged in with entity id 9015 at ([world]-92.5, 69.0, 33.5)
+[21:59:14] [Server thread/INFO]: soso was kicked due to keepalive timeout!
+[21:59:14] [Server thread/INFO]: soso lost connection: Timed out
+[21:59:14] [Server thread/INFO]: soso left the game
+[22:01:59] [Server thread/INFO]: hutaome has made the advancement [Stone Age]
+[22:02:44] [Server thread/INFO]: hutaome has made the advancement [Getting an Upgrade]
+[22:06:10] [Server thread/INFO]: hutaome has made the advancement [Acquire Hardware]
+[22:06:14] [Server thread/INFO]: hutaome has made the advancement [Isn't It Iron Pick]
+[22:06:20] [Server thread/INFO]: hutaome has made the advancement [Diamonds!]
+[22:09:59] [Server thread/INFO]: hutaome has made the advancement [Cover Me with Diamonds]
+[22:10:36] [Server thread/INFO]: Stopping server
+[22:10:36] [Server thread/INFO]: Saving players
+[22:10:36] [Server thread/INFO]: your_father lost connection: Server closed
+[22:10:36] [Server thread/INFO]: your_father left the game
+[22:10:36] [Server thread/INFO]: hutaome lost connection: Server closed
+[22:10:36] [Server thread/INFO]: hutaome left the game
+[22:10:36] [Server thread/INFO]: Saving worlds
+[22:10:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:10:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:10:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:10:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:10:36] [Server thread/INFO]: [ChunkHolderManager] Saved 966 block chunks, 303 entity chunks, 1 poi chunks in world 'world' in 0.37s
+[22:10:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[22:10:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[22:10:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[22:10:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[22:10:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[22:10:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:10:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:10:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:10:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:10:37] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[22:10:37] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[22:10:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:10:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
