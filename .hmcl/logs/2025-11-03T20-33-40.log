@@ -1,0 +1,52 @@
+[20:33:41] [@.util.SelfDependencyPatcher.patch/INFO] Missing JavaFX dependencies, attempting to patch in missing classes
+[20:33:41] [@.util.SelfDependencyPatcher.loadFromCache/INFO]  - Loading dependencies...
+[20:33:41] [@.util.SelfDependencyPatcher.patch/INFO]  - Done!
+[20:33:41] [@.Launcher.main/INFO] *** HMCL 3.7.3 ***
+[20:33:41] [@.Launcher.main/INFO] Operating System: Windows 10 10.0.19045
+[20:33:41] [@.Launcher.main/INFO] Processor Identifier: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+[20:33:41] [@.Launcher.main/INFO] System Architecture: x86-64
+[20:33:41] [@.Launcher.main/INFO] Native Encoding: GB18030
+[20:33:41] [@.Launcher.main/INFO] JNU Encoding: GBK
+[20:33:41] [@.Launcher.main/INFO] Code Page: 936
+[20:33:41] [@.Launcher.main/INFO] Java Architecture: x86-64
+[20:33:41] [@.Launcher.main/INFO] Java Version: 21.0.9, Oracle Corporation
+[20:33:41] [@.Launcher.main/INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+[20:33:41] [@.Launcher.main/INFO] Java Home: D:\software\java
+[20:33:41] [@.Launcher.main/INFO] Current Directory: Y:\Games\mc
+[20:33:41] [@.Launcher.main/INFO] HMCL Global Directory: C:\Users\86153\AppData\Roaming\.hmcl
+[20:33:41] [@.Launcher.main/INFO] HMCL Current Directory: Y:\Games\mc\.hmcl
+[20:33:41] [@.Launcher.main/INFO] HMCL Jar Path: Y:\Games\mc\HMCL-3.7.3.exe
+[20:33:41] [@.Launcher.main/INFO] HMCL Log File: Y:\Games\mc\.hmcl\logs\2025-11-03T20-33-40.log
+[20:33:41] [@.Launcher.main/INFO] JVM Max Memory: 1024 MiB
+[20:33:41] [@.Launcher.main/INFO] Metaspace: 6.4 MiB
+[20:33:41] [@.Launcher.main/INFO] Native Backend: JNA
+[20:33:41] [@.util.platform.SystemInfo.initialize/INFO] System Info:
+ - CPU: AMD Ryzen 7 5800H (8 Cores / 16 Threads)
+ - GPU 1: NVIDIA GeForce RTX 3060 Laptop [Discrete]
+ - GPU 2: AMD Radeon Graphics� [Discrete]
+ - Memory: 8.88 GiB / 15.36 GiB (57%)
+[20:33:41] [@.Launcher.start/INFO] JavaFX Version: 21.0.8+2
+[20:33:41] [@.Launcher.start/INFO] Prism Pipeline: com.sun.prism.d3d.D3DPipeline
+[20:33:41] [@.Launcher.start/INFO] Dark Mode: false
+[20:33:41] [@.Launcher.start/INFO] Reduced Motion: false
+[20:33:41] [@.setting.ConfigHolder.init/INFO] Config location: Y:\Games\mc\hmcl.json
+[20:33:41] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:91)
+[20:33:41] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$19/TRACE] Executing task: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:91)
+[20:33:41] [@.event.EventBus.fireEvent/INFO] RefreshingVersionsEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft]] gets fired
+[20:33:41] [@.event.EventBus.fireEvent/INFO] RefreshingVersionsEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft]] gets fired
+[20:33:42] [@.ui.Controllers.initialize/INFO] Start initializing application
+[20:33:42] [@.ui.Controllers.initialize/INFO] Disable sub-pixel antialiasing
+[20:33:42] [@.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=1.21.8]] gets fired
+[20:33:42] [@.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=1.21.8]] gets fired
+[20:33:42] [@.event.EventBus.fireEvent/INFO] RefreshedVersionsEvent [source=HMCLGameRepository [versions=[1.21.8], baseDirectory=.minecraft]] gets fired
+[20:33:42] [@.event.EventBus.fireEvent/INFO] RefreshedVersionsEvent [source=HMCLGameRepository [versions=[1.21.8], baseDirectory=.minecraft]] gets fired
+[20:33:42] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:91)
+[20:33:42] [@.task.AsyncTaskExecutor.lambda$executeNormalTask$29/TRACE] Task finished: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:91)
+[20:33:42] [@.setting.FontManager.<clinit>/INFO] Font: System
+[20:33:42] [@.java.JavaManager.searchPotentialJavaExecutables/TRACE] Finished Java lookup, found 2
+ - JDK 20.0.1 (x86-64, Oracle Corporation): C:\Users\86153\.jdks\openjdk-20.0.1\bin\java.exe
+ - JDK 21.0.9 (x86-64, Oracle Corporation): D:\software\java\bin\java.exe
+[20:33:43] [@.auth.authlibinjector.AuthlibInjectorServer.refreshMetadata/INFO] authlib-injector server metadata refreshed: https://littleskin.cn/api/yggdrasil/
+[20:33:43] [@.upgrade.IntegrityChecker.isSelfVerified/INFO] Successfully verified current JAR
+[20:33:43] [@.util.FileSaver.saveSync/INFO] Saving file Y:\Games\mc\hmcl.json
+[20:33:43] [@.upgrade.UpdateChecker.lambda$requestCheckUpdate$2/INFO] Latest version (STABLE, preview=false) is [3.7.3 from http://mirrors.cloud.tencent.com/nexus/repository/maven-public/org/glavo/hmcl/hmcl-stable/3.7.3/hmcl-stable-3.7.3.jar]

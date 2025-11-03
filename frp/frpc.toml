@@ -1,0 +1,12 @@
+serverAddr = "hanzeyu.top"
+serverPort = 7000
+auth.method = "token"
+auth.token = "62331537qq"
+
+
+[[proxies]]
+name = "MyMCServer"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 25565
+remotePort = 6000
